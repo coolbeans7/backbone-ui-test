@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 11]>      <html class="old-ie"> <![endif]-->
+<!--[if gt IE 10]><!--> <html> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>andrew-ui</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/style.css" />
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<sc'+'ript src="bower_components/jquery/dist/jquery.min.js"><\/sc'+'ript>');
+            window.console = window.console || { log: function() {} };
+            window.APP = {};
+        </script>
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Andrew's UI</h1>
+        </header>
+        <main>
+            <!--[if lt IE 11]>
+                <p>You are using an <strong>outdated browser</strong>. 
+                Please <a href="http://browsehappy.com/">upgrade</a> to improve your experience.</p>
+            <![endif]-->
+
+            <noscript>
+                This page requires Javascript
+            </noscript>
+        </main>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+        <script>
+            window._ || document.write('<sc'+'ript src="bower_components/underscore/underscore.js"><\/sc'+'ript>');
+        </script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+        <script>
+            window.Backbone || document.write('<sc'+'ript src="bower_components/backbone/backbone.js"><\/sc'+'ript>');
+        </script>
+
+        <script src="dist/templates.js"></script>
+        <script src="dist/app.js"></script>
+
+        <script>
+            if('localhost' === location.hostname) {
+                document.write('<sc'+'ript src="//localhost:35729/livereload.js"><\/sc'+'ript>');
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,16 @@
+@import "../bower_components/pure/pure-nr-min.css";
+@import "../bower_components/animate.css/animate.min.css";
+
+body {
+    max-width: 960px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+
+
+.joblist table td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+
